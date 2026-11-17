@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore daycare, grooming and overnight stays at Pawfect Pet Care, a fictional neighborhood pet care studio.">
+  <title>Pawfect Pet Care | Daycare, Grooming &amp; Boarding</title>
+  <link href="vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="vendor/bootstrap.bundle.min.js"></script>
+  <script defer src="navigation.js"></script>
+</head>
+<body id="top">
+  <a class="visually-hidden-focusable skip-link" href="#gallery">Skip to gallery</a>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-md container shell" aria-label="Main navigation">
+      <a class="navbar-brand" href="#top"><span class="paw-mark" aria-hidden="true">🐾</span> Pawfect Pet Care</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="navigation">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faqs">FAQs</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container shell">
+    <section id="gallery" aria-label="Pet care gallery" class="gallery">
+      <div id="petGallery" class="carousel slide" role="region" aria-roledescription="carousel" aria-label="Meet our guests" data-bs-ride="false">
+        <div class="carousel-inner" aria-live="polite">
+          <div class="carousel-item active">
+            <div class="gallery-panel first-panel">
+              <div class="carousel-caption">
+                <p class="eyebrow">Neighborhood pet care</p>
+                <h1>Little paws.<br><em>Big welcome.</em></h1>
+                <p>Play days, fresh trims, and cozy nights for the four-legged members of your family.</p>
+                <a class="service-link" href="#services">Explore our services <span aria-hidden="true">↗</span></a>
+              </div>
+              <figure><img src="assets/daycare.jpg" alt="A French bulldog in a yellow hoodie looks back over its shoulder."><figcaption>01 / 03 &nbsp; · &nbsp; The daycare crew</figcaption></figure>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="gallery-panel second-panel">
+              <div class="carousel-caption">
+                <p class="eyebrow">Fresh from the brush</p>
+                <h2>Good hair.<br><em>Happy dog.</em></h2>
+                <p>A gentle bath, a brush tailored to their coat, and time for a little fresh air.</p>
+                <a class="service-link" href="#services">Explore our services <span aria-hidden="true">↗</span></a>
+              </div>
+              <figure><img src="assets/golden.jpg" alt="A golden retriever sits outdoors with a yellow flower in its mouth."><figcaption>02 / 03 &nbsp; · &nbsp; After a brush-out</figcaption></figure>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="gallery-panel third-panel">
+              <div class="carousel-caption">
+                <p class="eyebrow">Overnight guests</p>
+                <h2>Cozy beds.<br><em>Slow mornings.</em></h2>
+                <p>Quiet corners, familiar meals, and a sunny spot to watch the world go by.</p>
+                <a class="service-link" href="#faqs">Plan their stay <span aria-hidden="true">↗</span></a>
+              </div>
+              <figure><img src="assets/boarding.jpg" alt="A fluffy orange tabby stretches on a cushioned indoor perch."><figcaption>03 / 03 &nbsp; · &nbsp; A boarding guest</figcaption></figure>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-controls">
+          <button class="arrow" type="button" data-bs-target="#petGallery" data-bs-slide="prev" aria-label="Previous photo">←</button>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#petGallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Photo 1, daycare"></button>
+            <button type="button" data-bs-target="#petGallery" data-bs-slide-to="1" aria-label="Photo 2, grooming"></button>
+            <button type="button" data-bs-target="#petGallery" data-bs-slide-to="2" aria-label="Photo 3, boarding"></button>
+          </div>
+          <button class="arrow" type="button" data-bs-target="#petGallery" data-bs-slide="next" aria-label="Next photo">→</button>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="content-section" aria-labelledby="services-title">
+      <h2 id="services-title" class="section-title">Our services</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-4"><article class="card h-100">
+          <img class="card-img-top play" src="assets/daycare.jpg" alt="A small French bulldog dressed for a play day." loading="lazy">
+          <div class="card-body"><h3>Daycare</h3><p>Small playgroups leave room for sniffing games, new friends, and a midday rest.</p></div>
+        </article></div>
+        <div class="col-12 col-md-4"><article class="card h-100">
+          <img class="card-img-top groom" src="assets/golden.jpg" alt="A golden retriever with a long, brushed coat." loading="lazy">
+          <div class="card-body"><h3>Grooming</h3><p>From a tidy paw trim to a full bath and brush, each visit starts with a coat check.</p></div>
+        </article></div>
+        <div class="col-12 col-md-4"><article class="card h-100">
+          <img class="card-img-top board" src="assets/boarding.jpg" alt="An orange tabby relaxing indoors." loading="lazy">
+          <div class="card-body"><h3>Boarding</h3><p>Dogs settle into individual sleeping spaces. Cats unwind in a separate, quiet room.</p></div>
+        </article></div>
+      </div>
+    </section>
+    <section class="content-section faq-section" id="faqs" aria-labelledby="faq-title">
+      <div><p class="eyebrow">Before their visit</p><h2 id="faq-title" class="section-title">Pet parent FAQs</h2></div>
+      <div class="accordion accordion-flush" id="petQuestions">
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#packing" aria-expanded="true" aria-controls="packing">What should I bring for an overnight stay?</button></h3>
+          <div class="accordion-collapse collapse show" id="packing" data-bs-parent="#petQuestions"><div class="accordion-body">Pack your pet’s regular food in labeled portions, feeding instructions, an emergency contact, and one washable comfort item.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour" aria-expanded="false" aria-controls="tour">Can I tour the space before booking?</button></h3>
+          <div class="accordion-collapse collapse" id="tour" data-bs-parent="#petQuestions"><div class="accordion-body">Yes. Arrange a tour with our front desk before your first visit. We’ll show you the play area, grooming station, and sleeping spaces and talk through your pet’s routine.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#group" aria-expanded="false" aria-controls="group">How do you choose daycare playgroups?</button></h3>
+          <div class="accordion-collapse collapse" id="group" data-bs-parent="#petQuestions"><div class="accordion-body">We start with a quiet introduction and match dogs by size, energy, and play style. A dog who prefers a slower day can take a break with a caregiver.</div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container shell"><span>Pawfect Pet Care</span><small>A fictional pet care studio · CIS 130</small><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
