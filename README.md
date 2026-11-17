@@ -1,6 +1,6 @@
 # Pawfect Pet Care
 
-Lukas Alvarez · CIS 130
+Lukas Alvarez · CIS 130 · Fall 2026
 
 A single-page site for a fictional neighborhood pet care studio. Visitors can meet daycare and boarding guests in a photo gallery, compare daycare, grooming, and boarding, and find answers to common questions before a visit.
 
