@@ -1,10 +1,20 @@
 # Pawfect Pet Care
 
+Lukas Alvarez · CIS 130
+
 A single-page site for a fictional neighborhood pet care studio. Visitors can meet daycare and boarding guests in a photo gallery, compare daycare, grooming, and boarding, and find answers to common questions before a visit.
 
 ## Open the site
 
+[Visit Pawfect Pet Care](https://www.ozarktechwebdev.com/fall26/lukasa/pawfectpetcare/)
+
 Open `index.html` in a browser. The project includes its photographs and Bootstrap 5.3.3 files, so the gallery, navigation, and FAQs also work offline.
+
+## Class landing page
+
+Choose **Pawfect Pet Care** in the top navigation of [my class landing page](https://www.ozarktechwebdev.com/fall26/lukasa/).
+
+![Live class landing page with the Pawfect Pet Care link in the top navigation](docs/live-landing-page.jpg)
 
 ## Project files
 
